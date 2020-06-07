@@ -1,0 +1,24 @@
+:host {
+    flex: auto;
+    display: flex;
+    margin: auto 0;
+}
+
+input {
+    width: 220px;
+    margin-right: 12px;
+}
+
+nav {
+    display: flex;
+}
+
+nav * {
+    font-weight: 600;
+    color: cadetblue;
+    white-space: nowrap;
+    margin-right: 12px;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.5;
+}
